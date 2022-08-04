@@ -1,5 +1,15 @@
 $(document).ready(function(){
 
+    $(".contenedor_nav_responsive").hide()
+
+    $(".boton_responsive").on("click", function(){
+
+        $(".contenedor_nav_responsive").slideToggle(500)
+
+        d3.slideToggle(500)
+
+    })
+
     $(".informacion").hide()
 
     $(".acordion").on("click", function(){
